@@ -1,0 +1,6 @@
+auction_time: 60
+# 拍卖持续时间（秒）
+broadcast_time: 10
+# 广播间隔（秒）
+broadcast_content: "§e{player}§a开启了一个拍卖!物品为§e{item} §b({id}:{special})§a，起拍价为§e {price}§a，输入 §e/auction join {name} <金额>§a 来参与吧，§c在 §e{time}§c 秒后拍卖就将结束了哦"
+# {player}为开启拍卖的玩家用户名，{item}为物品的名称，{id}为物品的id，{special}为物品的特殊值，{price}为拍卖物品的起拍价，{name}为该拍卖的名称，{time}为拍卖剩余时间

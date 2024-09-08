@@ -1,0 +1,9 @@
+name: AuctionSystem
+main: cc.nukkit.myzness.auction.Main
+version: 1.2.0
+api: [3.0.0]
+author: 眠悠子Myzness
+commands:
+  auction:
+    description: 拍卖系统
+    usage: /auction <sell|join|cancel> [arg]
