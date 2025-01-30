@@ -1,0 +1,42 @@
+console_error: "§c请勿在控制台执行该指令!"
+unknown_command: "§c未知命令，请输入 /auction help 查看帮助!"
+help_title: "拍卖指令帮助"
+help_sell: "发起拍卖"
+help_join: "参与拍卖"
+help_cancel: "取消拍卖"
+help_help: "查看指令帮助"
+help_reload: "重新加载配置文件"
+already_active: "你已经有一个拍卖活动正在进行，不能创建新的拍卖!"
+invalid_price: "起拍价必须是一个数字！"
+auction_exists: "该拍卖活动已经存在!"
+no_item: "你没有持有物品进行拍卖!"
+auction_created: "拍卖活动 §e{auctionName}§a 已创建，起拍价为 §e{startingPrice}§a!"
+bid_placed: "你已参与拍卖 §e{auctionName}§a，出价为 §e{bidAmount}§a!"
+provide_auction_name: "请提供拍卖名!"
+auction_not_found: "拍卖活动 §e{auctionName}§c 不存在!"
+no_permission: "你没有权限执行此操作!"
+auction_cancelled: "拍卖活动 §e{auctionName}§a 已取消!"
+self_bid_error: "你不能参与自己发起的拍卖!"
+bid_too_low: "你的出价必须高于当前最高价且不低于起拍价！"
+insufficient_balance: "你的余额不足以进行此出价！"
+bid_broadcast: "以 §e{bidAmount} §a的价格出价。"
+auction_won: "赢得了你的拍卖!"
+winner_offline: "赢家不在服务器上!"
+auction_unsuccessful: "拍卖未成交!"
+auction_must_number: "出价必须为数字！"
+help_setting: "显示拍卖系统设置。"
+setting_title: "拍卖系统设置"
+setting_auction_time_title: "拍卖持续时间（秒）"
+setting_broadcast_time_title: "广播间隔（秒）"
+setting_broadcast_content_title: "广播内容"
+settings_saved: "设置已保存！"
+invalid_number: "请输入有效的值！"
+config_reloaded: "配置已重新加载！"
+setting_broadcast_tips: |-
+  {player}为开启拍卖的玩家用户名
+  {item}为物品的名称
+  {id}为物品的id
+  {special}为物品的特殊值
+  {price}为拍卖物品的起拍价
+  {name}为该拍卖的名称
+  {time}为拍卖剩余时间
